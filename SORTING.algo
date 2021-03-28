@@ -1,0 +1,23 @@
+FUNCTION SORTALGO(tab:ARRAY_OF integer , n:INTEGER)
+    var aux,j:INTEGER;
+    FOR i FROM 1 TO i<tab.length STEP 1  DO
+        aux=tab[i]
+        j=i-1
+        WHILE (j>=0 && tab[i>key]) DO
+            tab[j+1]=tab[i]
+            j=j-1
+        END_WHILE
+        tab[j+1]=aux
+    END_FOR
+END
+ALGORITHM SORTING 
+var t1,n:INTEGER;
+BEGIN
+ FOR i FROM 0 TO t1.length-1 STEP 1  DO
+       write("donner l'élément de vacteur1")
+       read(t1[i])
+   END_FOR
+   n:=t1.length;
+SORTALGO(t1,n)
+END
+
